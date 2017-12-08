@@ -64,7 +64,7 @@ export const getScrollTop = () => {
   return scrollTop;
 }
 
-export function setTitle(tab) {
+export const setTitle = (tab) => {
   switch (tab) {
     case 'all':
       return '全部帖子';
